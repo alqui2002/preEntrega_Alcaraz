@@ -1,0 +1,17 @@
+/* Menu hamburguesa */
+  .navbar.navbar-expand-lg{
+      background-color: $color_principal_negro !important; 
+
+    }
+  .navbar{
+    &-toggler{
+      background-color: #AEAEAE;
+    }
+    a{
+      color: #FFF;
+      font-size: 16px; 
+    }
+    a:hover{
+      color: #AEAEAE; 
+    }
+}
