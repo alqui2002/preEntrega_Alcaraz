@@ -1,4 +1,7 @@
 @import 'utilities/variables';
+@import 'utilities/mixins';
+
+@import 'globals/reset';
 
 @import 'layout/navbar';
 @import 'layout/banner';
@@ -12,11 +15,7 @@
 
 
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 
 

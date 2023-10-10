@@ -21,14 +21,12 @@ main{
             margin: 10px; 
             flex-basis: calc(33.33% - 20px); 
             img{
-                height: 400px;
-                width: 350px;
+                @include size(400px,350px);
                 margin-bottom: 2rem;
                 border-radius: 10px;
             }
             p{
-                color: $font_color_negro;
-                font-family: $fuente_p;
+                @include font($font_color_negro,$fuente_p);
             }
         }
 }

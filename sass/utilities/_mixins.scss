@@ -1,0 +1,9 @@
+@mixin size($height, $width){
+    height: $height;
+    width: $width;
+}
+
+@mixin font($color, $font){
+    color: $color;
+    font-family: $font;
+}

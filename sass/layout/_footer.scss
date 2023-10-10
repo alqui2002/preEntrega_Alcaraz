@@ -13,8 +13,7 @@
         padding: 45px 0px;
         .box{
             frame{
-                width: 100%;
-                height: 100%;
+                @include size(100%,100%);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -27,17 +26,14 @@
 
             }
             h2{
-                color: $font_color_negro;
                 margin-bottom: 25px;
                 font-size: 20px;
                 text-align: center;
-                font-family: $fuente_titulos;
-
+                @include font($font_color_negro,$fuente_titulos);
             }
             p{
-                color: $font_color_negro;
+                @include font($font_color_negro,$fuente_p);
                 margin-bottom: 10px;
-                font-family: $fuente_p;
 
             }
             .red-social{

@@ -7,11 +7,10 @@
       padding-top: 40px;
       text-align: center;
       font-size: 45px;
-      color: #E9F8F9;
-      font-family: $fuente_titulos;
+      @include font(#E9F8F9,$fuente_titulos);
     }
     .card-title{
-      font-family: 'Oswald', sans-serif;
+      font-family: $fuente_titulos;
     }
     .card-text{
       font-family: $fuente_p;
